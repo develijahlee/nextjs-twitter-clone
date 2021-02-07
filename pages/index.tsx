@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import { Feed } from "../components/Feed"
+import { CreateTweetForm } from "../components/CreateTweetForm"
 import styles from '../styles/Home.module.scss'
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
 
       <main>
         <Feed />
+        <CreateTweetForm />
       </main>
     </div>
   )
